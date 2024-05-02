@@ -2,6 +2,10 @@
     width:100vw;
     height:100vh;
     background-image: linear-gradient(to right,#030d27,#152b57,#1e8dbe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 .contact-container {
@@ -102,7 +106,9 @@
   }
   @media only screen and (max-width: 600px) {
     .contact-fullcontainer {
-        padding-bottom: 2rem; 
+      width: 100%;
+      height: 100%;
+      padding-bottom: 2rem; 
     }
 
     .contact-heading {

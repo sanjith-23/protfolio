@@ -18,6 +18,10 @@
     color: white;
 }
 @media only screen and (max-width: 600px) {
+    .about{
+        width: 100%;
+        height: 100%;
+    }
     .about p {
         width: 90%; 
         font-size: 1rem; 
