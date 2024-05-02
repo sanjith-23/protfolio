@@ -48,8 +48,13 @@
         width: 100%;
         height: 100%;
     }
+    .certificate ul{
+        flex-direction: column;
+        list-style: none;
+        gap: 1rem;
+    }
     .certificate ul li img {
-        max-width: 90%; 
+        max-width: 90%;
     }
 
     .certificate .selectedImage img {
@@ -60,8 +65,5 @@
         top: 1rem;
         right: 1rem;
         font-size: 2rem;
-    }
-    .certificate ul{
-        flex-direction: row;
     }
 }
