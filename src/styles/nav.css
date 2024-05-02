@@ -56,6 +56,7 @@ nav:hover p{
         height: auto; 
         margin: 1rem 0.2rem; 
         padding: 0.2rem 0; 
+        position:fixed;
     }
 
     nav span {
