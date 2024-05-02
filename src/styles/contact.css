@@ -110,6 +110,11 @@
       height: 100%;
       padding-bottom: 2rem; 
     }
+    .contact-container{
+      margin-top: 2rem;
+      width: 80%;
+      height: 50%;
+    }
 
     .contact-heading {
         font-size: 20px; 
