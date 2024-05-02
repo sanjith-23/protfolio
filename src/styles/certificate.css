@@ -1,0 +1,60 @@
+.certificate{
+    width:100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right,#030d27,#152b57,#1e8dbe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.certificate h1{
+    color: white;
+    margin: 2rem;
+}
+.certificate ul{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+}
+.certificate ul li img{
+    width: 350px;
+    height: 250px;
+    cursor: pointer;
+}
+.certificate .selectedImage{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.certificate .selectedImage img{
+    width: 60%;
+    height: 70%;
+}
+.certificate .selectedImage svg{
+    font-size: 3rem;
+    position: absolute;
+    color:white;
+    top: 3rem;
+    right: 3rem;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .certificate ul li img {
+        max-width: 90%; 
+    }
+
+    .certificate .selectedImage img {
+        width: 80%; 
+    }
+
+    .certificate .selectedImage svg {
+        top: 1rem;
+        right: 1rem;
+        font-size: 2rem;
+    }
+}

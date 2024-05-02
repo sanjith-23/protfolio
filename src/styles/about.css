@@ -1,0 +1,25 @@
+.about{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right,#030d27,#152b57,#1e8dbe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about h1{
+    color: white;
+    margin-bottom: 1rem;
+}
+.about p{
+    width: 800px;
+    text-align:justify;
+    font-size: 1.5rem;
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    .about p {
+        width: 90%; 
+        font-size: 1rem; 
+    }
+}
